@@ -1,0 +1,9 @@
+.lista{
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+.lista p{
+    margin:0;
+}

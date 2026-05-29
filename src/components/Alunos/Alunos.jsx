@@ -1,10 +1,13 @@
-
-
-function Aluno(){
+import styles from './alunos.module.css'
+function Aluno({nome = 'Usuario', idade = 0, ativo = false}){
     return(
-        <>
-        <p>Nome: Projeto Teste </p>
-        </>
+        
+        <div className={styles.lista}>
+            <p>Nome:{nome}</p>
+            <p>Idade:{idade}</p>
+            <p>Ativo: {ativo ? 'SIM':'NÃO'}</p>
+        </div>
+        
     )
 };
 
